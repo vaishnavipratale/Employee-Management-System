@@ -1,4 +1,4 @@
-const BASE_URL = 'https://employee-management-system-njod.onrender.com';
+const BASE_URL = 'http://localhost:8080';
 
 export const GetAllEmployees = async (search = '', page = 1, limit = 5) => {
     const url =
